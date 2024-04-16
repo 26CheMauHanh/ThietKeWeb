@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bài 2.14</title>
+        <style>
+            .centered {
+                text-align: center;
+                margin: 0 auto;
+                max-width: 500px
+            }
+            a {
+                margin-right: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="centered">
+            <img src="./images/logo.jpg"
+                style="height: 100px; width: 400px;">
+            <p>
+            <a href="/home" style="color: red;">Home</a>
+            <a href="/location">Location</a>
+            <a href="/blog">Blog</a>
+            <p>
+
+            <h1 style="color: brown;">Sing Up</h1>
+            <form>
+                <legend>First name</legend>
+                <input type="text" required minlength="2" maxlength="20">
+                <p>
+                <legend>Last name</legend>
+                <input type="text" required minlength="5" maxlength="50">
+                <p>
+                <legend>Email</legend>
+                <input type="email" required minlength="15" maxlength="30">
+                <p>
+                <legend>Password</legend>
+                <input type="password" required minlength="8" maxlength="50">
+                <p>
+                <legend>Confirm Password</legend>
+                <input type="password" required minlength="8" maxlength="50">
+                <p>
+                <input type="button"value="Sign up">
+                <p>Copyright by Mango.org</p>
+            </form>
+        </div>
+    </body>
+</html>

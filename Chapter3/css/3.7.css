@@ -1,0 +1,27 @@
+.left, .middle, .right {
+    height: 700px;}
+.left {
+    background-color: white;
+    float: left;
+    width: 33.33%;}
+.middle {
+    background-color: white;
+    float: left;
+    width: 33.33%;
+    }
+.right {
+    background-color: white;
+    float: right;
+    width: 33.34%;}
+@media only screen and (max-width: 768px) {
+    .left, .right, .middle {
+        float:none;
+        width: 100%;
+    } }
+.gia {
+    color: darkgrey;
+}
+.text {
+    text-align: center;
+    font-size: 20px;
+}

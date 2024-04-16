@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bài 2.13</title>
+        <style>
+            .centered {
+                text-align: center;
+                margin: 0 auto;
+                max-width: 500px
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="centered">
+            <h1 style="color: brown; font-size: 30px;"><b>Book a Table</b></h1>
+            <form method="post">
+                <fieldset id="your name">
+                    <legend>Your name</legend>
+                    <input type="text" id="your name" name="your name"
+                        required minlength="4" maxlength="50"><br>
+                </fieldset>
+                <fieldset id="sex">
+                    <legend>Sex</legend>
+                    <input type="radio" value="male" name="sex"> Male
+                    <input type="radio" value="female" name="sex" checked> Female
+                </fieldset>
+                <fieldset id="size">
+                    <legend>Size</legend>
+                    <input type="radio" value="2-person table" name="size"> 2-person table
+                    <input type="radio" value="4-person" name="size" checked> 4-person table
+                    <input type="radio" value="6-person" name="size"> 6-person table
+                </fieldset>
+                <fieldset id="location">
+                    <legend>Location</legend>
+                    <input type="radio" value="indoors" name="location"> Indoors
+                    <input type="radio" value="outdoors" name="location" checked> Outdoors
+                </fieldset>
+                <input type="button"value="Book table">
+            </form>
+        </div>
+    </body>
+</html>

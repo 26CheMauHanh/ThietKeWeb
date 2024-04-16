@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bài 2.16</title>
+        <style>
+            .centered {
+                text-align: center;
+                margin: 0 auto;
+                max-width: 600px;
+                font-size: 25px;
+            }
+            .custom-checkbox {
+            transform: scale(2); 
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="centered">
+            <img src="./images/logo.jpg"
+            style="height: 100px; width: 400px;">
+            <p>
+            <form>
+                <label for="Email">Email Address</label>
+                <input type="email" id="Email" name="Email" required 
+                    style="text-align: left; width: 50%; height: 20px;">
+                <p>
+                <label for="date">Date of Booking:</label>
+                <input type="date" id="sate" name="date of booking"
+                    style="font-size: 20px; width: 32%;">
+                <p>
+                <label for="number">Number of people</label>
+                <input type="number" id="number" name="Number of people"
+                    min="1" max="8"
+                    style="font-size: 20px; width: 17%;">
+                <p>
+                <input type="checkbox" id="agree" name="agree" value="agree" checked
+                    style="width: 5%;"
+                    class="custom-checkbox">
+                <label for="agree">I agree to the cancellation policy</label>
+                <p>
+                <button style="font-size: 20px;">Book Now</button>
+            </form>
+        </div>
+    </body>
+</html>

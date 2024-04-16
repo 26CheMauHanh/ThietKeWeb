@@ -1,0 +1,104 @@
+1. các thẻ thuộc tính:
+    alt: Sử dụng kèm với thẻ <img>, hiển thị mô tả khi đưa trỏ chuột lên hình ảnh
+    title: Sử dụng kèm với thẻ <p>, <div>, … Hiển thị mô tả khi đưa trỏ chuột lên đối tượng
+    href: gắn link
+    src: gắn file ảnh
+
+    text-decoration: none; -> liên kết ko có dấu gạch dưới
+
+2. các thẻ thuộc tính sử dụng với Style:
+    font-family: font chữ
+    font-size: size chữ
+    text-align: canh lề
+    border-width: độ dày đường viền
+
+    margin - left: khoảng cách lề trái
+    border-style: solid -> đường thẳng
+    border-style: dashed -> gạch đứt
+    border-style: dotted -> chấm
+    border-style: double -> đôi
+
+3. các thẻ định dạng văn bản:
+    <strong> in đậm quan trọng
+    <hr> : tạo đường kẻ ngang
+    <pre> : có niều đoạn đc ngắt dòng
+    <b> : in đậm
+    <i> = <em> : in nghiêng
+    <u> = <ins> : gạch chân
+    <!-- --> : ghi chú
+    <mark> : lm nổi bật vàng
+    <del> : gạch ngang thân chữ
+    <sub> : tạo chỉ số dưới
+    <sup> : tạo chỉ số trên
+    <ul> : tạo danh sách ko đánh stt
+    <ol> : tạo danh sách có đánh stt
+
+4. Nhóm thẻ FORMS:
+    <from> : khởi tạo 1 from nhập liệu
+    <botton> : định nghĩa nút lệnh
+    <label> : định nghĩa 1 nhãn thông tin
+    <input type="value"> : định nghĩa ......
+    <textarea> : tạo ô nhập liệu vs nhiều dòng
+    minlenght, maxlenght: chiều dài chiều rộng tối đưa
+    required : yêu cầu nhập liệu
+    step : thiết lập bước nhảy
+    rows: dòng;    cols: cột
+    checked : mặc định đc chọn
+    button : nút lệnh tùy chọn
+    submit : nút lệnh submit
+    reset : nút lệnh khởi tạo lại
+    + thuộc tính "datalist": sổ list và có thể nhập 
+    + thuộc tính "select": chỉ sổ list
+
+5. Các nhóm thẻ TABLE:
+    <caption> : định nghĩa tên cho bảng
+    <table> : định nghĩa cấu trúc bảng
+    <th> : định nghĩa 1 tiêu đề cột
+    <tr> : định nghĩa 1 dòng
+    <td> : định nghĩa 1 ô
+    colspan: gộp nhiều ô liền kề thành 1 cột 
+    rowspan: gộp nhiều ô liền kề thành 1 dòng
+
+
+Chương 3P1:
+1. Đơn vị đo lường 
+    -> Đơn vị tương đối:
+        em: kích thước phông chữ
+        vw: % chiều rộng
+        vh: % chiều cao
+        %: giá trị %
+
+2. Có 4 hình thức định nghĩa CSS:
+    a.  Inline Style Sheet: đưa luôn vô trong <body>
+    b.  Internal Style Sheet: đưa lên trong <head>
+    c.  External Style Sheet: gắn link file CSS
+    d.  Multiple Style Sheets:
+
+3. Thiết kế tương thích:
+     cú pháp: @media not|only mediatype and (media feature) {
+                CSS-Code;
+            }
+
+    aspect-ratio: Tỉ lệ giữa chiều rộng và chiều cao của viewport;
+    min-aspect-ratio: Tỉ lệ tối thiểu giữa chiều rộng và chiều cao của viewport;
+    max-aspect-ratio: Tỉ lệ tôi đa giữa chiều rộng và chiều cao của viewport;
+    color: Số bits cho mỗi màu sắc của device;
+    color-index: Số lượng màu sắc mà device có thể hiển thị;
+    device-aspect-ratio: Tỉ lệ giữa chiều rộng và chiều cao;
+    max-device-aspect-ratio: Tỉ lệ tối đa giữa chiều rộng và chiều cao;
+    min-device-aspect-ratio: Tỉ lệ tối thiểu giữa chiều rộng và chiều cao;
+    device-height: Chiều cao của device;
+    device-width: Chiều rộng của device;
+
+    height: Chiều cao của viewport;
+    width: Chiều rộng của viewport;
+    max-width: Chiều rộng tối đa của viewport;
+    min-width: Chiều rộng tối thiểu của viewport;
+    max-height: Chiều cao tối đa của viewport;
+    min-height: Chiều cao tối thiểu của viewport;
+    min-device-width: Chiều rộng tối thiểu của device;
+    max-device-width: Chiều rộng tối đa của device;
+    min-device-height: Chiều cao tối thiểu của device;
+    max-device-height: Chiều cao tối đa của device;
+    orientation: Định hướng của khung nhìn (xoay hoặc không xoay thiết bị);
+    resolution: Độ phân giải của thiết bị đầu ra (sử dụng dpi hoặc dpcm);
